@@ -1,9 +1,0 @@
-:scope {
-  color: white;
-  background-color: #9c6ade; }
-  :scope[state|active] {
-    border: 3px solid #007ace; }
-  :scope[state|type=primary] {
-    background-color: #50248f; }
-  :scope[state|type=primary][state|active] {
-    background-color: #230051; }
