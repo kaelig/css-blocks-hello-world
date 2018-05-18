@@ -1,0 +1,19 @@
+@import '../node_modules/@shopify/polaris-tokens/dist/colors.scss';
+
+:scope {
+  color: $color-white-base;
+  background-color: $color-purple-base;
+
+
+  &[state|active] {
+    border: 3px solid $color-blue-base;
+  }
+
+  &[state|type=primary] {
+    background-color: $color-purple-dark;
+  }
+
+  &[state|type=primary][state|active] {
+    background-color: $color-purple-darker;
+  }
+}

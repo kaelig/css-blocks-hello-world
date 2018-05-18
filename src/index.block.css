@@ -1,11 +1,8 @@
 :scope {
-  color: green;
-}
+  color: green; }
 
 .unusedStyle {
-  background-color: papayawhip;
-}
+  background-color: papayawhip; }
 
 :scope[state|test] {
-  color: blue;
-}
+  color: blue; }

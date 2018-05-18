@@ -2,6 +2,11 @@
 
 Minimal example of [css-blocks](https://github.com/linkedin/css-blocks) in a react app.
 
-## Run
-`npm run build` and open `/dist/index.html`
+## Quick start
 
+Clone this repository and run `npm install` (or `yarn`).
+
+## Run
+`npm run build` and open `/docs/index.html`
+
+Development: `npm run watch`

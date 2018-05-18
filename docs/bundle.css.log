@@ -1,0 +1,7 @@
+/Users/kaelig/src/github.com/Shopify/css-blocks/css-blocks-hello-world/src/index.block.css:4:1 [removeUnusedStyles] Removed rule with selector ".index__unusedStyle" because no element found that matches .index__unusedStyle.
+/Users/kaelig/src/github.com/Shopify/css-blocks/css-blocks-hello-world/src/index.block.css:7:1 [removeUnusedStyles] Removed rule with selector ".index--test" because no element found that matches .index--test.
+/Users/kaelig/src/github.com/Shopify/css-blocks/css-blocks-hello-world/src/index.block.css:1:1 [rewriteIdents] Rewrote selector's idents from ".index" to ".a".
+/Users/kaelig/src/github.com/Shopify/css-blocks/css-blocks-hello-world/src/Button.block.css:1:1 [rewriteIdents] Rewrote selector's idents from ".Button" to ".b".
+/Users/kaelig/src/github.com/Shopify/css-blocks/css-blocks-hello-world/src/Button.block.css:4:3 [rewriteIdents] Rewrote selector's idents from ".Button--active" to ".c".
+/Users/kaelig/src/github.com/Shopify/css-blocks/css-blocks-hello-world/src/Button.block.css:6:3 [rewriteIdents] Rewrote selector's idents from ".Button--type-primary" to ".d".
+/Users/kaelig/src/github.com/Shopify/css-blocks/css-blocks-hello-world/src/Button.block.css:8:3 [rewriteIdents] Rewrote selector's idents from ".Button--type-primary.Button--active" to ".d.c".

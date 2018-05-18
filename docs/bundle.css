@@ -1,9 +1,12 @@
-:scope {
+.a {
+  color: green; }
+
+.b {
   color: white;
   background-color: #9c6ade; }
-  :scope[state|active] {
+  .c {
     border: 3px solid #007ace; }
-  :scope[state|type=primary] {
+  .d {
     background-color: #50248f; }
-  :scope[state|type=primary][state|active] {
+  .d.c {
     background-color: #230051; }

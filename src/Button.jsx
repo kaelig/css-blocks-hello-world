@@ -4,8 +4,8 @@ import objstr from 'obj-str';
 import styles from './Button.block.css';
 
 export default class Button extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = { isActive: false };
   }
 
@@ -16,7 +16,8 @@ export default class Button extends Component {
   render() {
     const style = objstr({
       [styles]: true,
-      [styles.active()]: this.state.isActive
+      [styles.active()]: this.state.isActive,
+      [styles.type(this.props.type)]: !!this.props.type
     });
 
     return (
